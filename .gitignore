@@ -6,6 +6,10 @@ backend/*.egg-info/
 backend/.pytest_cache/
 *.pyc
 
+# SQLite
+backend/*.db
+backend/*.sqlite3
+
 # Node
 frontend/node_modules/
 frontend/dist/
@@ -17,6 +21,7 @@ backend/.env
 
 # OS
 .DS_Store
+**/.DS_Store
 
 # Editor
 .vscode/
